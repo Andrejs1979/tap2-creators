@@ -1,0 +1,17 @@
+# Cloudflare Workers/Pages configuration for Tap2 Creators
+# This file configures the deployment of the marketing website
+
+name = "tap2-creators-site"
+compatibility_date = "2024-01-01"
+
+# For Astro static site deployment to Cloudflare Pages
+# The marketing site will be built locally and deployed via:
+# npx wrangler pages deploy dist/ --project-name tap2-creators-site
+
+# Analytics (optional)
+# [analytics]
+# enabled = true
+
+# Environment variables (for future dynamic functionality)
+# [env.production]
+# [env.development]
