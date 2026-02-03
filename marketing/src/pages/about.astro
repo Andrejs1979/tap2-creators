@@ -1,0 +1,288 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="About Tap2 Creators">
+	<section class="hero">
+		<div class="container">
+			<h1>About Tap2 Creators</h1>
+			<p class="tagline">Empowering creators to earn more, faster.</p>
+		</div>
+	</section>
+
+	<section class="mission">
+		<div class="container">
+			<h2>Our Mission</h2>
+			<p>
+				We believe creators deserve better. Traditional platforms take up to 30% of your earnings
+				and hold your money for 30-90 days. That's not fair to the people creating the content
+				that powers these platforms.
+			</p>
+			<p>
+				Tap2 Creators was built to give you more: more revenue, more control, and instant access
+				to your money. We're committed to helping you build a sustainable business doing what you love.
+			</p>
+		</div>
+	</section>
+
+	<section class="story">
+		<div class="container">
+			<h2>Our Story</h2>
+			<p>
+				Founded in 2026, Tap2 Creators emerged from a simple observation: creators are the backbone
+				of the digital economy, yet they're treated as an afterthought by most platforms.
+			</p>
+			<p>
+				We talked to hundreds of creators—YouTubers, streamers, artists, educators—and heard the
+				same frustrations: high fees, slow payouts, fragmented tools, and platforms that come
+				between them and their audience.
+			</p>
+			<p>
+				So we built something different. A platform that puts creators first, with fair fees,
+				instant payouts, and all the tools you need to monetize your content in one place.
+			</p>
+		</div>
+	</section>
+
+	<section class="values">
+		<div class="container">
+			<h2>Our Values</h2>
+			<div class="values-grid">
+				<div class="value">
+					<div class="value-icon">💜</div>
+					<h3>Creators First</h3>
+					<p>Every decision starts with what's best for creators, not corporate profits.</p>
+				</div>
+				<div class="value">
+					<div class="value-icon">🔒</div>
+					<h3>Transparency</h3>
+					<p>No hidden fees. No surprises. You always know exactly what you're earning.</p>
+				</div>
+				<div class="value">
+					<div class="value-icon">⚡</div>
+					<h3>Speed</h3>
+					<p>Instant payouts. Fast support. Quick iterations based on your feedback.</p>
+				</div>
+				<div class="value">
+					<div class="value-icon">🤝</div>
+					<h3>Fairness</h3>
+					<p>Low fees. You keep 95% of your earnings. You earned it, you should keep it.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="team">
+		<div class="container">
+			<h2>The Team</h2>
+			<p>
+				We're a small team of developers, designers, and creator economy enthusiasts who have
+				been building payment platforms and creator tools for years. We understand the unique
+				challenges creators face, and we're building the solution we wish existed.
+			</p>
+			<p>
+				Based in 2026 and backed by Tap2 / CloudMind Inc., we're on a mission to democratize
+				creator monetization and help creators worldwide build sustainable businesses.
+			</p>
+		</div>
+	</section>
+
+	<section class="contact">
+		<div class="container">
+			<h2>Get in Touch</h2>
+			<p>Have questions, feedback, or want to collaborate? We'd love to hear from you.</p>
+			<a href="mailto:hello@tap2.gg" class="contact-button">Email Us</a>
+			<p class="social-links">
+				Follow us on
+				<a href="https://twitter.com/tap2creators" target="_blank" rel="noopener">Twitter</a>
+				and
+				<a href="https://github.com/Andrejs1979/tap2-creators" target="_blank" rel="noopener">GitHub</a>
+			</p>
+		</div>
+	</section>
+
+	<section class="cta">
+		<div class="container">
+			<h2>Ready to Start Earning More?</h2>
+			<p>Join the waitlist and be first in line when we launch.</p>
+			<a href="/" class="cta-button">Join Waitlist</a>
+		</div>
+	</section>
+</Layout>
+
+<style>
+	.hero {
+		padding: 4rem 1rem;
+		text-align: center;
+		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+		color: white;
+	}
+
+	.hero h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		margin-bottom: 1rem;
+	}
+
+	.hero .tagline {
+		font-size: 1.25rem;
+		opacity: 0.95;
+	}
+
+	.container {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 0 1.5rem;
+	}
+
+	section {
+		padding: 4rem 0;
+	}
+
+	section h2 {
+		font-size: 2rem;
+		margin-bottom: 1.5rem;
+		color: #1e293b;
+	}
+
+	.mission,
+	.story,
+	.team {
+		background: white;
+	}
+
+	.mission p,
+	.story p,
+	.team p {
+		font-size: 1.125rem;
+		line-height: 1.8;
+		color: #475569;
+		margin-bottom: 1rem;
+	}
+
+	.values {
+		background: #f8fafc;
+	}
+
+	.values-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 2rem;
+		margin-top: 2rem;
+	}
+
+	.value {
+		background: white;
+		padding: 2rem;
+		border-radius: 12px;
+		text-align: center;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	}
+
+	.value-icon {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	.value h3 {
+		font-size: 1.25rem;
+		margin-bottom: 0.75rem;
+		color: #1e293b;
+	}
+
+	.value p {
+		color: #64748b;
+		line-height: 1.6;
+	}
+
+	.contact {
+		text-align: center;
+		background: white;
+	}
+
+	.contact > .container > p {
+		font-size: 1.125rem;
+		color: #64748b;
+		margin-bottom: 1.5rem;
+	}
+
+	.contact-button {
+		display: inline-block;
+		padding: 0.875rem 2rem;
+		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+		color: white;
+		text-decoration: none;
+		border-radius: 8px;
+		font-weight: 600;
+		transition: transform 0.2s, box-shadow 0.2s;
+	}
+
+	.contact-button:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+	}
+
+	.social-links {
+		margin-top: 2rem;
+		font-size: 1rem;
+		color: #64748b;
+	}
+
+	.social-links a {
+		color: #667eea;
+		text-decoration: none;
+		font-weight: 500;
+	}
+
+	.social-links a:hover {
+		text-decoration: underline;
+	}
+
+	.cta {
+		text-align: center;
+		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+		color: white;
+	}
+
+	.cta h2 {
+		color: white;
+		margin-bottom: 1rem;
+	}
+
+	.cta > .container > p {
+		font-size: 1.125rem;
+		margin-bottom: 2rem;
+		opacity: 0.95;
+	}
+
+	.cta-button {
+		display: inline-block;
+		padding: 1rem 2.5rem;
+		background: white;
+		color: #667eea;
+		text-decoration: none;
+		border-radius: 8px;
+		font-weight: 600;
+		font-size: 1.125rem;
+		transition: transform 0.2s, box-shadow 0.2s;
+	}
+
+	.cta-button:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+	}
+
+	@media (max-width: 768px) {
+		.hero h1 {
+			font-size: 2.25rem;
+		}
+
+		section h2 {
+			font-size: 1.75rem;
+		}
+
+		.values-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
